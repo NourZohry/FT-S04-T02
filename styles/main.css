@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* direction: rtl; */
+}
+
+body {
+    color: #444;
+}
+
+/* Hello I'm - profile picture */
+.portfolio-picture {
+    height:0;
+    min-height:100%;
+    border-radius: 50%;
+    border: 15px solid #d8d8d8;
+    outline: 15px solid #efefef;
+    margin: 15px 0px;
+}
+
+.helloim-text {
+    display: inline;
+    background-color: #3ad6be;
+    border-radius: 15px 15px 15px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 20px;
+}
+
+.social-link {
+    text-decoration: none;
+    color: black;
+}
+
+/* About Me */
+.technology-item {
+    border: 1px solid #4edcc2;
+}
+
+.general-button {
+    background-color: #3ad6be;
+    border-radius: 1000px;
+    color: white;
+    text-decoration: none;
+}
+
+/* What I Do */
+.icon-cards {
+    font-size: 30px;
+}
+
+.icon-uidesign {
+    color: purple;
+}
+
+.icon-webdev {
+    color: orange;
+}
+
+.icon-appdev {
+    color: royalblue;
+}
+
+/* Technical Skills */
+.technical-skill-name, .technical-skill-progress {
+    font-size: 14px;
+}
+
+.technical-skill-progress {
+    font-weight: normal
+}
+
+.technical-skill-progress-bar-wrapper {
+    background-color: #999;
+    height: 7px; 
+}
+
+.technical-skill-progress-bar {
+    background-color: #3ad6be;
+    border-radius: 0 5px 5px 0;
+}
+
+.technical-skill-progress-bar-javascript {
+    width: 86%;
+    height: 7px;
+}
+
+.technical-skill-progress-bar-java {
+    width: 46%;
+}
+
+.technical-skill-progress-bar-python {
+    width: 38%;
+}
+
+.technical-skill-progress-bar-php {
+    width: 17%;
+}
+
+/* Pricing Table */
+.pricing-icon {
+    font-size: 30px;
+    color: #3ad6be;
+}
+
+/* Client Reviews */
+.client-img {
+    border: 5px solid #3ad6be;
+    border-radius: 50%;
+}
+
+/* Contact Me */
+.contact-me-icon {
+    padding: 30px;
+    border: 2px solid #3ad6be;
+    border-radius: 50%;
+}
+
+.contact-me-icon-wrapper {
+    margin-bottom: 30px;
+}
+
+/* Navbar */
+.active {
+    border-bottom: 1px solid black;
+}
+
+.colored-active {
+    border-color: #3ad6be;
+}
+
+/* Education & Work Experience */
+.education-experience-title {
+    font-size: 24px;
+}
+
+.green-text {
+    color: #3ad6be;
+}
+
+.education-name {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.experience-name {
+    font-weight: bold;
+    font-size: 24px;   
+}
+
+.education-experience-date {
+    font-size: 14px;
+}
+
+.remove-border {
+    border: 0px;
+}
