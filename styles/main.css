@@ -10,22 +10,31 @@ body {
 
 /* Hello I'm - profile picture */
 .portfolio-picture {
-    height:0;
-    min-height:100%;
+    height: 300px;
     border-radius: 50%;
     border: 15px solid #d8d8d8;
     outline: 15px solid #efefef;
     margin: 15px 0px;
 }
 
-.helloim-text {
+.portfolio-hello {
     display: inline;
     background-color: #3ad6be;
     border-radius: 15px 15px 15px 0;
     color: white;
     text-decoration: none;
     font-size: 14px;
-    padding: 6px 20px;
+    padding: 6px 25px;
+    font-weight: bold;
+}
+
+.portfolio-name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.portfolio-role {
+    font-size: 24px; 
 }
 
 .social-link {
@@ -98,11 +107,34 @@ body {
     width: 17%;
 }
 
+/* Professional Skills */
+
+
 /* Pricing Table */
 .pricing-icon {
     font-size: 30px;
     color: #3ad6be;
 }
+
+.pricing-title {
+    font-size: 20px;
+}
+
+.pricing-availability {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.pricing-price {
+    font-size: 30px;
+    color: #3ad6be;
+    font-weight: bold;
+}
+
+.pricing-field {
+    font-size: 14px;
+}
+
 
 /* Client Reviews */
 .client-img {
@@ -110,15 +142,27 @@ body {
     border-radius: 50%;
 }
 
-/* Contact Me */
-.contact-me-icon {
-    padding: 30px;
-    border: 2px solid #3ad6be;
-    border-radius: 50%;
+.client-name {
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.contact-me-icon-wrapper {
-    margin-bottom: 30px;
+.client-title {
+    font-size: 14px;
+}
+
+/* Contact Me */
+.contact-me-icon {
+    line-height: 50px;
+    padding: 30px 33px;
+    border: 2px solid #3ad6be;
+    border-radius: 100%;
+}
+
+.contact-info {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
 }
 
 /* Navbar */
@@ -156,4 +200,47 @@ body {
 
 .remove-border {
     border: 0px;
+}
+
+/* Posts */
+.post-title {
+    color: #777;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.post-read-more {
+    color: #3ad6be;
+    text-decoration: none;
+    font-weight:500;
+}
+
+/* Form */
+.send-message-button {
+    width: 100%;
+    padding: 5px 0px;
+    border: none;
+    font-weight: bold;
+}
+
+/* Footer */
+.footer-rights {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+/* Google Map */
+.google-map-wrapper {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.google-map-wrapper iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }

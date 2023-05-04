@@ -68,28 +68,29 @@
     </nav>
 
     <!-- Grid component -->
-    <div class="container text-center mb-5">
+    <div class="container my-5">
       <div class="row">
-        <div class="col text-start">
-          <h3 class="helloim-text">Hello I'm</h3>
-          <h1>Alex Johnson</h1>
-          <h2>Product Designer</h2>
+        <div class="col-md-6 order-2 order-md-1 d-flex flex-column align-items-center justify-content-center">
+          <div class="portfolio-info-wrapper">
+          <h3 class="portfolio-hello">Hello I'm</h3>
+          <h1 class="portfolio-name mt-2">Alex Johnson</h1>
+          <h2 class="portfolio-role mb-3">Product Designer</h2>
 
+          
+          <div class="d-flex flex-column gap-2">
           <a href="#" class="social-link">
             <i class="bi bi-envelope-fill me-2"></i>
             getemail@email.com
           </a>
-          <br />
           <a href="#" class="social-link">
             <i class="bi bi-telephone-fill me-2"></i>
             +12 986 987 7867
           </a>
-          <br />
           <a href="#" class="social-link">
             <i class="bi bi-geo-alt-fill me-2"></i>
             37, Pollsatnd, New York, United State
           </a>
-          <br />
+        </div>
 
           <div class="d-flex justify-content-between col-4 mt-4">
             <i class="bi bi-facebook"></i>
@@ -98,10 +99,11 @@
             <i class="bi bi-dribbble"></i>
           </div>
         </div>
-        <div class="col">
+      </div>
+        <div class="col-md-6 order-1 order-md-2 text-center">
           <img
-            class="img-fluid portfolio-picture"
-            src="https://palashgoyal.com/assets/images/hero.png"
+            class="portfolio-picture"
+            src="assets/images/alex-johnson.png"
             alt="Alex Johnson"
           />
         </div>
@@ -114,7 +116,7 @@
         <div class="col">
           <img
             class="img-fluid"
-            src="https://palashgoyal.com/assets/images/ab-img.png"
+            src="assets/images/programming.png"
             alt="Programming"
           />
         </div>
@@ -286,6 +288,14 @@
         <div class="col-md-6">
           <h2 class="text-center">Professional Skills</h2>
           <div>Placeholder</div>
+          <!-- <div class="row-6">
+            <div class="col-6"><h3 class="professional-percentage">55%</h3><h3 class=professional-skill>Communication</h3></div>
+            <div class="col-6"><h3 class="professional-percentage">95%</h3><h3 class=professional-skill>Team Work</h3></div>
+          </div>
+          <div class="row-6">
+            <div class="col-6"><h3 class="professional-percentage">86%</h3><h3 class=professional-skill>Project Management</h3></div>
+            <div class="col-6"><h3 class="professional-percentage">60%</h3><h3 class=professional-skill>Creativity</h3></div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -436,19 +446,19 @@
     <!-- Cards component in flex container -->
     <!-- Pricing Table -->
     <div class="container text-center mt-5">
-      <h2>Pricing Table</h2>
+      <h2 class="my-4">Pricing Table</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body">
               <i class="bi bi-calendar pricing-icon"></i>
-              <h3 class="card-title">Full-time Work</h3>
-              <h6>I am available for full time</h6>
-              <h5>$1500</h5>
-              <h6>Web Development</h6>
-              <h6>Advertising</h6>
-              <h6>Game Development</h6>
-              <h6>Music Writing</h6>
+              <h3 class="card-title pricing-title">Full-time Work</h3>
+              <h6 class="pricing-availability">I am available for full time</h6>
+              <h5 class="pricing-price mt-3 mb-4">$1500</h5>
+              <h6 class="pricing-field">Web Development</h6>
+              <h6 class="pricing-field">Advertising</h6>
+              <h6 class="pricing-field">Game Development</h6>
+              <h6 class="pricing-field">Music Writing</h6>
               <div class="mt-4"><a
                 href="#"
                 class="px-4 py-2 fw-bold align-self-start general-button"
@@ -462,13 +472,13 @@
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body">
               <i class="bi bi-file-earmark pricing-icon"></i>
-              <h3 class="card-title">Fixed Price Project</h3>
-              <h6>I am available for fixed roles</h6>
-              <h5>$500</h5>
-              <h6>Web Development</h6>
-              <h6>Advertising</h6>
-              <h6>Game Development</h6>
-              <h6>Music Writing</h6>
+              <h3 class="card-title pricing-title">Fixed Price Project</h3>
+              <h6 class="pricing-availability">I am available for fixed roles</h6>
+              <h5 class="pricing-price mt-3 mb-4">$500</h5>
+              <h6 class="pricing-field">Web Development</h6>
+              <h6 class="pricing-field">Advertising</h6>
+              <h6 class="pricing-field">Game Development</h6>
+              <h6 class="pricing-field">Music Writing</h6>
               <div class="mt-4"><a
                 href="#"
                 class="px-4 py-2 fw-bold align-self-start general-button"
@@ -482,13 +492,13 @@
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body">
               <i class="bi bi-file-earmark pricing-icon"></i>
-              <h3 class="card-title">Hourly Work</h3>
-              <h6>I am available for hourly projects</h6>
-              <h5>$50</h5>
-              <h6>Web Development</h6>
-              <h6>Advertising</h6>
-              <h6>Game Development</h6>
-              <h6>Music Writing</h6>
+              <h3 class="card-title pricing-title">Hourly Work</h3>
+              <h6 class="pricing-availability">I am available for hourly projects</h6>
+              <h5 class="pricing-price mt-3 mb-4">$50</h5>
+              <h6 class="pricing-field">Web Development</h6>
+              <h6 class="pricing-field">Advertising</h6>
+              <h6 class="pricing-field">Game Development</h6>
+              <h6 class="pricing-field">Music Writing</h6>
               <div class="mt-4"><a
                 href="#"
                 class="px-4 py-2 fw-bold align-self-start general-button"
@@ -514,15 +524,15 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">A life without the daily traffic jams</h5>
+              <h5 class="card-title post-title">A life without the daily traffic jams</h5>
               <h6>
-                Post On <span>24.11.19</span> By <span>ThemeSpiders</span>
+                Post On <span class="green-text">24.11.19</span> By <span class="green-text">ThemeSpiders</span>
               </h6>
               <p>
                 It is a long established fact that a reader will be distarcted
                 by the readable content of a page when looking at its layout
               </p>
-              <a href="#">Read More</a>
+              <a class="post-read-more" href="#">Read More</a>
             </div>
           </div>
         </div>
@@ -534,15 +544,15 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">A life without the daily traffic jams</h5>
+              <h5 class="card-title post-title">Proportion are what's really needed</h5>
               <h6>
-                Post On <span>24.11.19</span> By <span>ThemeSpiders</span>
+                Post On <span class="green-text">24.11.19</span> By <span class="green-text">ThemeSpiders</span>
               </h6>
               <p>
                 It is a long established fact that a reader will be distarcted
                 by the readable content of a page when looking at its layout
               </p>
-              <a href="#">Read More</a>
+              <a class="post-read-more" href="#">Read More</a>
             </div>
           </div>
         </div>
@@ -554,15 +564,15 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">A life without the daily traffic jams</h5>
+              <h5 class="card-title post-title">Mounts of paper work to remember the way</h5>
               <h6>
-                Post On <span>24.11.19</span> By <span>ThemeSpiders</span>
+                Post On <span class="green-text">24.11.19</span> By <span class="green-text">ThemeSpiders</span>
               </h6>
               <p>
                 It is a long established fact that a reader will be distarcted
                 by the readable content of a page when looking at its layout
               </p>
-              <a href="#">Read More</a>
+              <a class="post-read-more" href="#">Read More</a>
             </div>
           </div>
         </div>
@@ -573,22 +583,22 @@
     <!-- Client Reviews -->
     <!-- Should be a carousel! TODO -->
     <div class="container text-center">
-      <h2>Client Reviews</h2>
+      <h2 class="my-5">Client Reviews</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body">
               <img
-                class="client-img"
+                class="client-img mb-4"
                 src="assets/images/client.png"
                 alt="Client"
               />
-              <p>
+              <p class="mb-4">
                 Absolutely wonderful! I am completely blown away. The very best.
                 I was amazed at the quality.
               </p>
-              <h5>John Mike</h5>
-              <h6>CEO, Author.Inc</h6>
+              <h5 class="client-name">John Mike</h5>
+              <h6 class="client-title">CEO, Author.Inc</h6>
             </div>
           </div>
         </div>
@@ -596,16 +606,16 @@
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body">
               <img
-                class="client-img"
+                class="client-img mb-4"
                 src="assets/images/client.png"
                 alt="Client"
               />
-              <p>
+              <p class="mb-4">
                 Absolutely wonderful! I am completely blown away. The very best.
                 I was amazed at the quality.
               </p>
-              <h5>John Mike</h5>
-              <h6>CEO, Author.Inc</h6>
+              <h5 class="client-name">John Mike</h5>
+              <h6 class="client-title">CEO, Author.Inc</h6>
             </div>
           </div>
         </div>
@@ -613,16 +623,16 @@
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body">
               <img
-                class="client-img"
+                class="client-img mb-4"
                 src="assets/images/client.png"
                 alt="Client"
               />
-              <p>
+              <p class="mb-4">
                 Absolutely wonderful! I am completely blown away. The very best.
                 I was amazed at the quality.
               </p>
-              <h5>John Mike</h5>
-              <h6>CEO, Author.Inc</h6>
+              <h5 class="client-name">John Mike</h5>
+              <h6 class="client-title">CEO, Author.Inc</h6>
             </div>
           </div>
         </div>
@@ -632,40 +642,44 @@
     <!-- Cards component in flex container -->
     <!-- Contact Me -->
     <div class="container text-center">
-      <h2>Contact Me</h2>
+      <h2 class="mb-4">Contact Me</h2>
       <div class="row">
         <div class="col-md-4">
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body">
-              <div class="contact-me-icon-wrapper">
+              <div class="contact-me-icon-wrapper mb-5">
                 <i class="bi bi-pin-map-fill contact-me-icon"></i>
               </div>
-              <h3>Address</h3>
-              <h4>5th Avenue, 34th floor, New york</h4>
+              <h3 class="contact-method">Address</h3>
+              <h4 class="contact-info">5th Avenue, 34th floor,
+                <br />
+                New york</h4>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body">
-              <div class="contact-me-icon-wrapper">
-                <i class="bi bi-pin-map-fill contact-me-icon"></i>
+              <div class="contact-me-icon-wrapper mb-5">
+                <i class="bi bi-envelope contact-me-icon"></i>
               </div>
-              <h3>Email</h3>
-              <h4>yourmail@email.com</h4>
-              <h4>yourmail@email.com</h4>
+              <h3 class="contact-method">Email</h3>
+              <h4 class="contact-info">yourmail@email.com
+                <br />
+                yourmail@email.com</h4>
             </div>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card shadow p-3 mb-5 bg-body rounded">
             <div class="card-body">
-              <div class="contact-me-icon-wrapper">
+              <div class="contact-me-icon-wrapper mb-5">
                 <i class="bi bi-telephone-fill contact-me-icon"></i>
               </div>
-              <h3>Phone</h3>
-              <h4>(880)-8976-987</h4>
-              <h4>(880)-8976-987</h4>
+              <h3 class="contact-method">Phone</h3>
+              <h4 class="contact-info">(880)-8976-987
+              <br />
+              (880)-8976-987</h4>
             </div>
           </div>
         </div>
@@ -706,18 +720,22 @@
                 id="email"
                 name="email"
               /><br />
-              <input
-                type="text"
+              <textarea
+                type="textarea"
                 class="form-control"
                 placeholder="Your Message"
                 id="message"
                 name="message"
-              /><br />
-              <button type="submit" class="general-button">Submit</button>
-            </div>
+                rows="6"
+              ></textarea>
+            <br />
+              <div class="d-flex send-message-button-wrapper">
+              <button type="submit" class="general-button send-message-button">Send Message</button>
+            </div></div>
           </form>
         </div>
         <div class="col-md-6">
+          <div class="google-map-wrapper">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13816.07170734606!2d31.342725649999995!3d30.03634355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c4000000001%3A0xc51a35e8b26c0b00!2sITWorx!5e0!3m2!1sen!2seg!4v1683114007720!5m2!1sen!2seg"
             width="600"
@@ -728,20 +746,31 @@
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
+        </div>
       </div>
     </div>
 
     <!-- Footer -->
-    <div class="container">
+    <div class="container my-5">
       <div class="row">
         <div class="col-md-6">
-          <h6>All rights reserved 2018</h6>
+          <h6 class="footer-rights">All rights reserved 2018</h6>
         </div>
         <div class="col-md-6">
-          <i class="bi bi-facebook"></i>
+          <div class="row">
+            <div class="footer-icon-wrapper col-1">
+            <i class="bi bi-facebook"></i>
+          </div>
+          <div class="footer-icon-wrapper col-1">
           <i class="bi bi-twitter"></i>
+</div>
+          <div class="footer-icon-wrapper col-1">
           <i class="bi bi-github"></i>
+</div>
+          <div class="footer-icon-wrapper col-1">
           <i class="bi bi-dribbble"></i>
+</div>
+</div>
         </div>
       </div>
     </div>
