@@ -8,6 +8,10 @@ body {
     color: #444;
 }
 
+.rtl-class {
+    direction: rtl;
+}
+
 /* Hello I'm - profile picture */
 .portfolio-picture {
     height: 300px;
