@@ -23,6 +23,7 @@
     <nav
       class="navbar sticky-top navbar-expand-lg bg-light shadow-sm p-3 mb-5 bg-body rounded"
     >
+    <button class="border-1 p-1" onclick="toggleLang()"><i class="bi bi-translate"></i></button>
       <button
         class="navbar-toggler"
         type="button"
@@ -784,5 +785,15 @@
       integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
       crossorigin="anonymous"
     ></script>
+    <script>
+      function toggleLang() {
+      if (document.body.classList.contains('rtl-class')) {
+        document.body.classList.remove("rtl-class");
+      }
+      else {
+        document.body.classList.add("rtl-class");
+      }
+    }
+    </script>
   </body>
 </html>
